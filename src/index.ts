@@ -57,7 +57,7 @@ async function main() {
   const block = await provider.getBlock("latest")
 
   // ======= UNCOMMENT FOR ERC20 TRANSFER ==========
-   const tokenAddress = "0x4da27a545c0c5B758a6BA100e3a049001de870f5";
+   const tokenAddress = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
    const engine: TransferERC20 = new TransferERC20(provider, walletExecutor.address, RECIPIENT, tokenAddress);
   // ======= UNCOMMENT FOR ERC20 TRANSFER ==========
 
